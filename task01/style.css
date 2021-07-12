@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    max-width: 300px;
+    border: 1px solid grey;
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+.movie h3 {
+    padding: 0 10px;
+}
+
+.movie p {
+    margin-top: auto;
+}
+
+.movie-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
