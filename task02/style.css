@@ -27,13 +27,13 @@
     align-self: center;
 }
 
-.list {
+.main-nav .list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.list-item {
+.main-nav .list-item {
     display: inline-block;
     margin-left: 30px;
 }
@@ -42,4 +42,44 @@
     text-decoration: none;
     text-transform: uppercase;
     color: lightgray;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.content {
+    background: lightpink;
+}
+
+.sidebar {
+    background: plum;
+    width: 25%;
+    padding: 10px 20px;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar .list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+.sidebar-link:hover {
+    color: indigo;
 }

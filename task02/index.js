@@ -15,11 +15,29 @@ const Header = props => {
     );
 };
 
+const Sidebar = props => {
+    return (
+        <div className="sidebar">
+            <p className="sidebar-title">{props.title}</p>
+            <ul className="list">
+                {props.navigation.map(item => (
+                    <li className="list-item"><a className="sidebar-link" href="#">{item}</a></li>
+                ))}
+            </ul>
+        </div>
+
+    );
+};
+
 const navigationText = ["Home", "About", "Contact us"];
+const sidebarText = ["Cakes", "Pies", "Cookies", "Buns", "Sweet bread", "Candies", "Ice cream", "Other sweets"];
 
 const webPage = (
     <div className="site">
         <Header logo="biscuit" navigation={navigationText}/>
+        <div className="content">
+            <Sidebar title="Category" navigation ={sidebarText}/>
+        </div>
     </div>
 );
 
