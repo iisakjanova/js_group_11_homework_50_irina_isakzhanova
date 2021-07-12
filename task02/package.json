@@ -1,0 +1,11 @@
+{
+  "name": "task02",
+  "version": "1.0.0",
+  "description": "Homework 50. Task 02.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irina Isakjanova",
+  "license": "ISC"
+}
