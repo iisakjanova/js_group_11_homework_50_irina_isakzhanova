@@ -22,7 +22,6 @@
     border: 1px solid grey;
     margin: 0 10px;
     text-align: center;
-
 }
 
 .movie h3 {
@@ -36,5 +35,5 @@
 .movie-img {
     width: 100%;
     display: block;
-    height: auto;
+    height: 400px;
 }
